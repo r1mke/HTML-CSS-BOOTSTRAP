@@ -127,6 +127,9 @@ border: 1px solid #4C35F2;
     padding: 30px 20px;
     background-color: #171B1D;
     cursor: pointer;
+    -webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+     box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
 }
 
 .service-item h3{
@@ -158,3 +161,254 @@ border: 1px solid #4C35F2;
     transition: 0.5s;
     margin-top: -10px;
 }
+
+.how-it-works-section{
+    padding-top:100px ;
+    text-align: center;
+    background-image: url(../Images/_files/home-01-bg-video2.jpg);
+    background-size: cover;
+}
+
+.how-it-works-section h4{
+    text-align: center;
+    color: #96B1F8;
+}
+
+.how-it-works-section h2{
+    text-align: center;
+    color: #fff;
+}
+
+.how-it-works-section p{
+    text-align: center;
+    color: #C8C8C8;
+}
+
+.how-it-works-section img{
+    position: relative;
+    bottom:-30px
+}
+
+.customers-say{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.customer-item-1{
+    background-image: url(../Images/_files/customer-item-1.jpg);
+    text-align: center;
+    height: 370px;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+.customer-item-2{
+    background-image: url(../Images/_files/item2.jpg);
+    text-align: center;
+    height: 370px;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+.customer-item-3{
+    background-image: url(../Images/_files/item3.jpg);
+    text-align: center;
+    height: 370px;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+
+}
+.customer-item-4{
+    background-image: url(../Images/_files/item4.jpg);
+    text-align: center;
+    height: 370px;
+color: #fff;
+background-size: cover;
+background-position: center;
+
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+   position: relative;
+}
+
+.customers-say h2{
+    margin-bottom: 25px;
+}
+
+.text-position{
+    position: absolute;
+    bottom: 5px;
+    padding: 20px;
+}
+
+.text-position h4{
+    text-align: left;
+}
+
+.text-position::before{
+    background-color: white;
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 27px;
+}
+
+.about-us{
+    padding-top:50px ;
+    padding-bottom: 50px;
+
+    background-image: url(../Images/_files/home2-bg-contacts.jpg);
+    color: #fff;
+background-size: cover;
+background-position: center;
+}
+.about-us h2{
+    text-transform: capitalize;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.about-us img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-us h5::before{
+display: block;
+content: "";
+width: 10px;
+height: 10px;
+background-color: white;
+position: absolute;
+left: -15px;
+bottom: 7px;
+background-color: #4C35F2;
+}
+
+.about-us h5{
+    position: relative;
+    left: 15px;
+    display: inline-block;
+}
+
+.get-in-touch{
+    margin-top: 200px;
+    background-image: url(../Images/_files/get-in.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+
+}
+
+.touch-heading{
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.phone {
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+
+.request-h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+form{
+    padding: 100px;
+    background-color: rgba(0,0,0,0.5);
+    text-transform: uppercase;
+
+}
+
+.message textarea{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-input input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-input button{
+    width: 100%;
+   position: relative;
+   bottom:-24px;
+   background-color: #4C35F2;
+   color: #fff;
+}
+
+.pricing-item{
+    margin-top: 40px;
+    background-color: #111618;
+    color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 35px;
+  padding-right: 35px;
+  cursor: pointer;
+}
+
+.pricing-css{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white ;
+ 
+}
+
+.pricing-plans
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.main-num{
+    font-size: 35px;
+   
+}
+
+.price{
+    border-top: dashed 2px #fff;
+    border-bottom: dashed 2px #fff;
+padding-top: 7px;
+padding-bottom: 7px;
+}
+
+.pricing-item button{
+    padding: 10px;
+    background-color: #4C35F2;
+    width: 100%;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.pricing-item:hover{
+    background-color: #4E1796;
+    transition-duration: 0.4s;
+    margin-top: -10px;
+}
+
