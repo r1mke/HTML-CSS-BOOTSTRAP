@@ -58,6 +58,8 @@ body{
 .blue-button{
     background-color: #4C35F2;
     font-weight: bold;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 87% 100%, 25% 100%, 0 100%);
+
 }
 
 .blue-button:hover{
@@ -65,6 +67,8 @@ background-color: #fff;
 color: #4C35F2;
 transition-duration: 2ms;
 border: 1px solid #4C35F2;
+clip-path: polygon(0 0, 100% 0, 100% 75%, 87% 100%, 25% 100%, 0 100%);
+
 }
 
 .hero-section h1{
@@ -89,6 +93,8 @@ border: 1px solid #4C35F2;
     text-transform: uppercase;
     color: #fff;
     padding: 8px;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 87% 100%, 25% 100%, 0 100%);
+
 }
 
 .hero-section .hero-header .blue-button-hero{
@@ -100,6 +106,8 @@ border: 1px solid #4C35F2;
     color: #4C35F2;
     transition-duration: 2ms;
     border: 1px solid #4C35F2; 
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 87% 100%, 25% 100%, 0 100%);
+
 }
 
 .service-section{
@@ -130,7 +138,8 @@ border: 1px solid #4C35F2;
     -webkit-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
      box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
-}
+     clip-path: polygon(0 0, 100% 0, 100% 94%, 93% 100%, 25% 100%, 0 100%);
+    }
 
 .service-item h3{
     text-align: center;
@@ -160,6 +169,8 @@ border: 1px solid #4C35F2;
     background-color: #290252;
     transition: 0.5s;
     margin-top: -10px;
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 93% 100%, 25% 100%, 0 100%);
+
 }
 
 .how-it-works-section{
@@ -201,6 +212,8 @@ border: 1px solid #4C35F2;
     color: #fff;
     background-size: cover;
     background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 93% 100%, 25% 100%, 0 100%);
+
 }
 .customer-item-2{
     background-image: url(../Images/_files/item2.jpg);
@@ -209,6 +222,8 @@ border: 1px solid #4C35F2;
     color: #fff;
     background-size: cover;
     background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 93% 100%, 25% 100%, 0 100%);
+
 }
 .customer-item-3{
     background-image: url(../Images/_files/item3.jpg);
@@ -217,15 +232,17 @@ border: 1px solid #4C35F2;
     color: #fff;
     background-size: cover;
     background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 93% 100%, 25% 100%, 0 100%);
 
 }
 .customer-item-4{
     background-image: url(../Images/_files/item4.jpg);
     text-align: center;
     height: 370px;
-color: #fff;
-background-size: cover;
-background-position: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 93% 100%, 25% 100%, 0 100%);
 
 }
 
@@ -367,6 +384,8 @@ form{
   padding-left: 35px;
   padding-right: 35px;
   cursor: pointer;
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 94% 100%, 25% 100%, 0 100%);
+
 }
 
 .pricing-css{
@@ -410,5 +429,102 @@ padding-bottom: 7px;
     background-color: #4E1796;
     transition-duration: 0.4s;
     margin-top: -10px;
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 94% 100%, 25% 100%, 0 100%);
+
 }
 
+.profit-section{
+    background-image:url(../Images/_files/get-in.jpg) ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.profit-description{
+    text-align: center;
+    color: white;
+}
+
+.profit-description button{
+    padding: 15px;
+    margin-top: 20px;
+    width: 150px;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+    border: 1px solid white;
+
+}
+
+.profit-description button:hover{
+    background-color: #4C35F2;
+    transition: 0.5s;
+    border: none;
+}
+
+.profit-section img{
+    margin-bottom: 35px;
+}
+
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer ul{
+list-style: none;
+padding: 0%;
+}
+
+.footer ul li{
+    padding-bottom: 5px;
+    font-style:oblique;
+}
+
+
+
+.div-cube{
+    width: 10px;
+    height: 10px;
+    background-color: #4C35F2;
+    margin-right: 5px;
+    position: relative;
+    top: 6px;
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 74% 100%, 25% 100%, 0 100%);
+
+}
+
+.div-header{
+display: flex;
+border-bottom: 1px dashed #111618;
+margin-bottom: 5px;
+
+}
+
+.col-div{
+    display: flex;
+    padding: 5px;
+}
+
+.footer-menu{
+    list-style: none;
+
+}
+
+.footer-menu li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.footer-menu li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.last-footer{
+    padding-top: 20px ;
+    padding-bottom: 10px;
+    background-color: #111618;
+    color: white;
+}
